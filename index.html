@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dialog test</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -14,12 +15,12 @@
         Dialog test page
     </h1>
     <p>
-        <button id="showModalDialog">Show modal dialog</button>
+        <button class="button-reset" id="showModalDialog">Show modal dialog</button>
     </p>
     <dialog id="modalDialog">
         <header class="dialog__header">
             <h2>Hi, I'm a dialog.</h2>
-            <button id="closeModalDialog" title="Close dialog" aria-label="auto" aria-live="polite">
+            <button class="button-reset kruisje" id="closeModalDialog" title="Close dialog" aria-label="auto" aria-live="polite">
                 <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
                     <rect width="256" height="256" fill="none" />
                     <line x1="200" y1="56" x2="56" y2="200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" />
@@ -33,7 +34,7 @@
             </p>
         </div>
     </dialog>
-
+    <script src="app.js"></script>
 </body>
 
 </html>
